@@ -34,6 +34,10 @@ void HashMap<T1, T2>::put(const T1& key, const T2& value)
     }
     table[index].second->emplace_back(key, value);
     table[index].first++;
+    if (table[index].first == table.size())
+    {
+        rehash();
+    }
 }
 
 template <typename T1, typename T2>
