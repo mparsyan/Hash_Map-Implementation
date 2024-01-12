@@ -96,7 +96,7 @@ The `HashMap` class is a C++ implementation of a hash table data structure, desi
    - Open a terminal or command prompt.
    - Run the following command to clone the repository to your local machine:
      ```
-     git clone https://github.com/your-username/your-repository.git
+     git clone https://github.com/mparsyan/Hash_Map-Implementation.git
      ```
 
 2. **Navigate to the Project Folder:**
